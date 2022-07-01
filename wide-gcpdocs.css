@@ -1,0 +1,12 @@
+body[layout=docs]:not(.gcpdoc-disabled) .devsite-main-content[has-book-nav][has-sidebar] {
+  grid-template-columns: minmax(269px,1fr) minmax(752px,1712px) minmax(160px,1fr);
+}
+
+body[layout=docs]:not(.gcpdoc-disabled) devsite-content {
+  align-self: start;
+  grid-column: 2;
+  grid-row: 1;
+  margin: 24px 0;
+  max-width: 1712px;
+  min-width: 0;
+}
